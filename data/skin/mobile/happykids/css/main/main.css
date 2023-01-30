@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*───────────────────────────────────────────────────────────
+
+	 리스트 타입 및 옵션
+
+───────────────────────────────────────────────────────────*/
+@import url("../goods/goods.css");
+
+
+/*** 쇼핑몰 메인본문 | main/index.php ***/
+
+.main {}
+.main .main_top_menu {display:table; width:100%;}
+.main .main_top_menu li {display:table-cell; width:25%; text-align:center;}
+.main .main_top_menu li a {display:block; padding:13px 0 13px 0;font-size:14px; color:#333333;}
+
+/* 메인배너 */
+.main .main_banner_box {font-size:0; overflow:hidden; padding:0 15px; margin-top:15px;}
+.main .main_banner_box img {width:100%; font-size:0;}
+.main .main_banner_box > *{width:49%; float:right;}
+.main .main_banner_box > *:first-child{float:left;}
+
+.main_slide2{padding:0 15px; margin:15px 0 55px;}
+.main_slide2 .slider-banner-3837421641 .slick-dots{bottom:-17px;}
+.main_slide2 .slider-banner-3837421641 .slick-dots li{margin:0;}
+
+.recommend_prd{position:relative; padding:97px 5px 0; border:#fee99e 10px solid;}
+.recommend_banner_box img, .recommend_txt img{width:100%;}
+.recommend_banner_box{margin-top:15px; padding:0 15px;}
+.recommend_txt{margin:35px 0 20px; padding:0 15px;}
+.recommend_prd ._goods_display_main h3{position:absolute; top:32px; left:0; width:100%; padding: 8px 0;}
+.recommend_prd ._goods_display_main .main_prd_list{padding:0;}
+.recommend_prd ._goods_display_main h3 .more_btn_box {right:20px;}
+
+.main_banner_box2{overflow:hidden; padding:0 15px; margin-top:55px;}
+.main_banner_box2 > * > img{width:100%;}
+.main_banner_box2 > *{float:right; width:48%; margin-left:2%;}
+.main_banner_box2 > *:first-child{float:left; margin-left:0;}
+
+.new_prd{margin-top:45px;}

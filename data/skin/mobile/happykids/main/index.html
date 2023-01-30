@@ -1,0 +1,49 @@
+{*** 쇼핑몰 메인본문 | main/index.php ***}
+{ # header }
+<div class="main">
+	<!-- 상단메뉴 -->
+	<ul class="main_top_menu">
+		<li><a href="../mypage/wish_list.php">{=__('찜리스트')}</a></li>
+		<li><a href="../goods/goods_today.php">{=__('최근본상품')}</a></li>
+		<li><a href="../board/list.php?bdId={goodsReviewBdId}">{=__('상품후기')}</a></li>
+		<li><a href="../board/list.php?bdId={goodsQaBdId}">{=__('상품문의')}</a></li>
+	</ul>
+	<!-- 슬라이더 -->
+	<div class="main_slide">
+		 {=includeWidget('proc/_slider_banner.html', 'bannerCode', '3606671697')}
+	</div>
+	<!-- 메인배너 -->
+	<div class="main_banner_box">
+		<div class="main_banner_box_left">
+			<!--{ @dataBanner('2505697183') }-->{.tag}<!--{ / }-->
+		</div>
+		<div class="main_banner_box_right">
+			<!--{ @dataBanner('81393231') }-->{.tag}<!--{ / }-->
+		</div>
+	</div>
+	<div class="main_slide2">
+		{=includeWidget('proc/_slider_banner.html', 'bannerCode', '3837421641')}
+	</div>
+	<div class="best_prd">
+		<!-- 메인 상품 노출 -->{=includeWidget('goods/_goods_display_main.html','sno','4')}<!-- 메인 상품 노출 -->
+	</div>
+	<div class="recommend_prd">
+		<div class="recommend_banner_box">
+			<!--{ @dataBanner('1772932566') }-->{.tag}<!--{ / }-->
+		</div>
+		<div class="recommend_txt">
+			<!--{ @dataBanner('86599979') }-->{.tag}<!--{ / }-->
+		</div>
+		<!-- 메인 상품 노출 -->{=includeWidget('goods/_goods_display_main.html','sno','5')}<!-- 메인 상품 노출 -->
+	</div>
+	<div class="main_banner_box2">
+		<div><!--{ @dataBanner('3502198586') }-->{.tag}<!--{ / }--></div>
+		<div><!--{ @dataBanner('850944674') }-->{.tag}<!--{ / }--></div>
+	</div>
+	<div class="new_prd">
+		{=includeWidget('goods/_goods_display_main.html','sno','6')}
+	</div>
+</div>
+<!-- //main -->
+{ # footer }
+

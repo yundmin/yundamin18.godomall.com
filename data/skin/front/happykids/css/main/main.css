@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#container{margin-top:-1px;}
+#contents .sub_content{width:100%; margin:0; padding:0;}/* 메인 */
+.main_visual{overflow:hidden; width:100%;  margin:0 0 70px 0;}
+.main_content{}
+.main_slide_ban{overflow:hidden; width:1200px; margin:0 auto;}
+.main_ban_img01{float:left;}
+.main_banner{float:left; width:700px;}
+.main_banner .main_ban_img02 {display:inline-block; float:left;}
+.main_banner .main_slide02 {display:inline-block; float:left;}
+.main_ban_img03{margin:70px 0 0 0; text-align:center;}
+.main_banner02{width:1200px; margin:0 auto; padding:100px 0 0 0; overflow:hidden;}
+.main_banner02 li{float:left;}
+.main_banner02 li:first-child{padding:0 80px 0 0;}
+
+.main_cont_slide{text-align:center;}
+
+.scroll_wrap{top:868px;}
+
+.main_content .best_prd{width:900px;}
+.main_content .best_prd .goods_list_tit{padding:15px 0 0 0;}
+.main_content .best_prd .goods_list_tit h3{text-align:center;}
+.main_content .best_prd .goods_list_cont{border:1px solid #ffdc5e;}
+.main_content .best_prd .goods_list_cont ul li{margin:19px 0;}
