@@ -1080,3 +1080,5 @@ function gd_add_money_format(price, isFormat) {
 
     return convertPrice;
 }
+
+console.log(1)
