@@ -570,6 +570,6 @@ font-weight:bold;}
 .brand_wrap .no_data {text-align:center; padding:133px 0; display:none;}
 .brand_wrap .no_data p {font-size:15px; font-weight:bold; color:#333333; background:url('../../img/icon/bg_notice.png') no-repeat center 0; background-size:80px; padding-top:100px;}
 
-#header, .navi_g, .sub_top{
+#header_wrap, .navi_g, .sub_top{
 	display:none;
 }
