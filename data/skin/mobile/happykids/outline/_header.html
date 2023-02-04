@@ -8,7 +8,7 @@
 	<meta name="description" content="{=gMall.mallDescription}" />
 	<meta name="keywords" content="{=gMall.mallKeyword}" />
 	<meta name="csrf-token" content="{=token}" />
-	<meta name="viewport" content="user-scalable=yes,<!--{ ? gCurrentPageName != 'goods/goods_view' }--> initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,<!--{ / }--> width=device-width" />
+	<meta name="viewport" content="user-scalable=no,<!--{ ? gCurrentPageName != 'goods/goods_view' }--> initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,<!--{ / }--> width=device-width" />
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -66,6 +66,8 @@
 	<!--{ / }-->
 	<!-- Add style : end -->
 	<!--{ / }-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<link type="text/css" rel="stylesheet" href="{=setBrowserCache('../css/my.css')}" />
 
 	<script type="text/javascript">
         <!--{=includeFile(gGlobal.languageJson)}-->
@@ -81,7 +83,9 @@
 	<script type="text/javascript" src="{=setBrowserCache('../js/jquery/validation/additional-methods.min.js')}"></script>
 	<script type="text/javascript" src="{=setBrowserCache('../js/copyclipboard/clipboard.min.js')}"></script>
 	<script type="text/javascript" src="{=setBrowserCache('../js/iscroll/iscroll.js')}"></script>
-
+	<script src="https://player.vimeo.com/api/player.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="{=setBrowserCache('../js/my.js')}"></script>
 	<script type="text/javascript">
         // 고도몰5 상점대표 도메인
         var gdGlobalHomeUri = '{=c.URI_OVERSEAS_MOBILE}';
@@ -112,6 +116,7 @@
 	</script>
 	<script type="text/javascript" src="{=setBrowserCache('../js/gd_common.js')}"></script>
 	<script type="text/javascript" src="{=setBrowserCache('../js/gd_ui.js')}"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 
 
 	<style type="text/css">

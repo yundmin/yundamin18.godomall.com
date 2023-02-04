@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="07f10dea-fff9-4c06-af3b-e7eaf62f85a2" name="godo">
+        <fileTransfer accessType="SFTP" host="gdadmin.yundamin18.godomall.com" port="17662" sshConfigId="15d528f1-aac0-4f1c-b1ba-743b4586182d" sshConfig="yundamin@gdadmin.yundamin18.godomall.com:17662 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
