@@ -601,7 +601,7 @@ font-weight:bold;}
 	left:0;
 	z-index:3;
 	width:100%;
-	height:60px;
+	height:100px;
 	outline:1px solid red;
 }
 .goods_prd_item .goods_prd_content{
@@ -617,17 +617,19 @@ font-weight:bold;}
 .goods_prd_wrap{
 	position: absolute;
 	top:0;
-	left:0;
+	right:0;
 	display: flex;
-	flex-flow:column nowrap;
+	flex-flow: column wrap;
 	justify-content: space-around;
-	align-content: flex-start;
+	align-content: flex-end;
 	width:100%;
 	height:100%;
 	z-index:4;
+	padding-bottom:30px
 }
 .goods_prd_wrap p{
 	width:50px;
 	height:50px;
 	outline:1px solid red;
+	color:red;
 }
