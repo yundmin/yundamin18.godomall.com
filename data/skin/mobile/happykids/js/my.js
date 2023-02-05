@@ -14,15 +14,10 @@ $(document).ready(function () {
         // animateAnchor: true,
         scrollOverflow: true,
         // controlArrows: true,
-
         verticalCentered: true,
-
         fitToSection: true,
-
         navigationPosition: "right",
-
         css3: true,
-
     });
 
 });
