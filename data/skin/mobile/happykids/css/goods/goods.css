@@ -604,6 +604,7 @@ font-weight:bold;}
 	padding:15px;
 	bottom:0;
 	outline:1px solid blue;
+	z-index:3;
 }
 .goods_prd_iframe{
 	position: absolute;
