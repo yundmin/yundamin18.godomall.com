@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
     $(document).on('click', '.swiper-slide', function(){
-        $('.')
+        window.location.href='http://m.yundamin18.godomall.com/goods/goods_list.php?cateCd=001'
     })
 
     $("#goods_fp").fullpage({
