@@ -573,3 +573,15 @@ font-weight:bold;}
 #header_wrap, .navi_g, .sub_top{
 	display:none;
 }
+.goods_list > *{
+	display:none;
+}
+.goods_list > #goodslist {
+	display:block;
+}
+.goods_top_box{
+	display: none;
+}
+.goods_top_box .btn_box{
+	display:none;
+}
