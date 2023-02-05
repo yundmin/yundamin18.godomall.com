@@ -11,7 +11,7 @@ $(document).ready(function () {
         keyboardScrolling: true,
         paddingTop: "",
         touchSensitivity: 15,
-        animateAnchor: true,
+
         scrollOverflow: true,
         controlArrows: true,
 
