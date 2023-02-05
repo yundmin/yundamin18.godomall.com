@@ -14,9 +14,9 @@ $(document).ready(function () {
         animateAnchor: true,
         scrollOverflow: true,
         controlArrows: true,
-        responsiveWidth: 750,
+
         verticalCentered: true,
-        // fixedElements : '#header, .footer',
+
         fitToSection: true,
 
         navigationPosition: "right",
