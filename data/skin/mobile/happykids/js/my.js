@@ -15,7 +15,7 @@ $(document).ready(function () {
         paddingTop: "",
         touchSensitivity: 15,
         // animateAnchor: true,
-        scrollOverflow: true,
+        // scrollOverflow: true,
         // controlArrows: true,
         verticalCentered: true,
         fitToSection: true,
