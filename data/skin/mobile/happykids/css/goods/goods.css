@@ -585,3 +585,32 @@ font-weight:bold;}
 .goods_list_box .btn_box{
 	display:none;
 }
+
+.goods_fp_list {
+	position:relative;
+	widht:100%;
+	height:100%;
+	background: #000;
+}
+.goods_prd_item .goods_prd_img{
+	display: none;
+}
+.goods_prd_item .goods_prd_content, .goods_prd_iframe{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:3;
+	width:100%;
+	height:60px;
+	outline:1px solid red;
+}
+.goods_prd_item .goods_prd_content{
+	top:unset;
+	bottom:0;
+	outline:1px solid blue;
+}
+.goods_prd_iframe{
+	z-index:0;
+	width:100%;
+	height:100%;
+}
