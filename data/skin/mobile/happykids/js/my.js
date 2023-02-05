@@ -1,5 +1,10 @@
 
 $(document).ready(function () {
+
+    $(document).on('click', '.swiper-slide', function(){
+        $('.')
+    })
+
     $("#goods_fp").fullpage({
 
         scrollingSpeed: 1000,
