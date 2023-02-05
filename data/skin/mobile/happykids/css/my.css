@@ -5,7 +5,8 @@
 .shorts{
     width:95%;
     height:230px!important;
-    margin: 0 auto 20px;
+    margin: 0 auto;
+    padding:5px;
     touch-action:pan-y;
 
 }
