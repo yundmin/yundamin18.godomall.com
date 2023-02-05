@@ -82,3 +82,17 @@
 #footer{
     display:none;
 }
+.shorts_list2{
+    width:100%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+.shorts_list2 > div {
+    width:50%;
+    height:350px;
+}
+
+
+
