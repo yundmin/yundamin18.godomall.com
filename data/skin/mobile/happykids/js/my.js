@@ -1,6 +1,6 @@
 
     $(document).ready(function () {
-    $("#fullpage").fullpage({
+    $("#goods_fp").fullpage({
 
         scrollingSpeed: 1000,
         slidesNavigation: true,
