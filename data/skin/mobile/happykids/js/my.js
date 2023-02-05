@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    $(document).on('click', '.swiper-slide', function(){
+    $(document).on('click', '.quick_box a:nth-of-type(1)', function(){
         window.location.href='http://m.yundamin18.godomall.com/goods/goods_list.php?cateCd=001'
     })
 
