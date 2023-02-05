@@ -635,8 +635,12 @@ font-weight:bold;}
 	height:50px;
 	outline:1px solid red;
 	color:red;
-	cursor: pointer;
+
 	user-select: none;
+}
+.goods_prd_wrap p:hover{
+	cursor: pointer;
+	outline:1px solid blue;
 }
 .goods_prd_iframe_video{
 	width:100%;
