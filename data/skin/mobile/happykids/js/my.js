@@ -13,7 +13,7 @@ $(document).ready(function () {
         touchSensitivity: 15,
 
         scrollOverflow: true,
-        controlArrows: true,
+
 
         verticalCentered: true,
 
