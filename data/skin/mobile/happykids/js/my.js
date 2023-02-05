@@ -1,5 +1,5 @@
 
-    $(document).ready(function () {
+$(document).ready(function () {
     $("#goods_fp").fullpage({
 
         scrollingSpeed: 1000,
@@ -12,7 +12,7 @@
         paddingTop: "",
         touchSensitivity: 15,
         animateAnchor: true,
-        // scrollOverflow: true,
+        scrollOverflow: true,
         controlArrows: true,
         responsiveWidth: 750,
         verticalCentered: true,
@@ -24,7 +24,5 @@
         css3: true,
 
     });
-    $("로고").click(function () {
-    $.fn.fullpage.moveTo(1);
-});
+
 });
